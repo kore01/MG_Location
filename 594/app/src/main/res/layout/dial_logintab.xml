@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="350dp"
+              android:layout_height="475dp"
+              android:background="@drawable/border"
+              android:padding="10dp"
+              android:layout_gravity="center">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:gravity="top" android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" android:layout_marginBottom="20dp" android:layout_weight="1"
+            android:layout_margin="5dp">
+        <TextView
+                android:text="Регистрация/Вход"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/textView" android:gravity="center"
+                android:layout_weight="1" android:textAppearance="@style/title"/>
+        <TextView
+                android:id="@+id/txtclose"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="X"
+                android:layout_gravity="end"
+                android:gravity="center|top"
+                android:textAppearance="@style/title" android:layout_weight="8"/>
+    </LinearLayout>
+    <EditText
+            android:id="@+id/et_email"
+            style="@style/viewCustom"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"
+            android:textAppearance="@style/smolgrey" android:layout_weight="1" android:layout_height="match_parent"
+            android:layout_width="match_parent" android:textAllCaps="false" android:textStyle="italic"/>
+    <EditText
+            android:id="@+id/et_password"
+            style="@style/viewCustom"
+            android:layout_below="@id/et_email"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"
+            android:textAppearance="@style/smolgrey" android:layout_height="match_parent"
+            android:layout_width="match_parent" android:layout_weight="1" android:textStyle="italic"/>
+    <Button
+            android:id="@+id/btn_register"
+            style="@style/viewCustom"
+            android:layout_below="@id/et_password"
+            android:background="@color/colorPrimary"
+            android:text="@string/create_act"
+            android:layout_marginLeft="15dp" android:layout_marginRight="15dp"
+            android:textAppearance="@style/title_expandable" android:textColor="@color/white"
+            android:layout_weight="1" android:layout_height="match_parent" android:layout_width="match_parent"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" android:layout_weight="1.21"/>
+    <Button
+            android:text="Вход с Google"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/google_sign_in_button" android:layout_weight="1"
+            style="@android:style/Widget.Holo.Button.Small"
+            android:textAppearance="@style/title_expandable" android:layout_marginBottom="10dp"
+            android:layout_margin="5dp"/>
+
+</LinearLayout>
+
+

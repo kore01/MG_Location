@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="350dp"
+              android:layout_height="475dp"
+              android:background="@drawable/border"
+              android:padding="5dp"
+              android:layout_gravity="center">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="3">
+        <TextView
+                android:text="Изберете стая"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/textView8" android:textAppearance="@style/title"
+                android:gravity="center" android:layout_weight="1"/>
+        <TextView
+                android:id="@+id/txtclose"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="X"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:layout_weight="5" android:visibility="visible" android:textAppearance="@style/title"/>
+    </LinearLayout>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="0.6" android:paddingLeft="15dp"
+            android:paddingRight="15dp" style="@android:style/Widget.ScrollView">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="Първи етаж"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView22" android:layout_weight="1"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="106"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b106"/>
+                    <Button
+                            android:text="107"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b107"/>
+                    <Button
+                            android:text="Актова зала"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/baz"/>
+                    <Button
+                            android:text="2000"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b2000"/>
+                    <Button
+                            android:text="Shannon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/bshan"/>
+                    <Button
+                            android:text="Физкултурен салон"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/bfvs"
+                            android:textAppearance="@style/txt_expandable"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                    android:text="Втори етаж"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView27" android:layout_weight="1"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="201"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b201"/>
+                    <Button
+                            android:text="202"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b202"/>
+                    <Button
+                            android:text="203"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b203"/>
+                    <Button
+                            android:text="204"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b204"/>
+                    <Button
+                            android:text="205"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b205"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="206"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b206"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="213"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b213"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="213a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b213a"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="214"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b214"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="215"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b215"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="216"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b216"
+                            android:textAppearance="@style/txt_expandable"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                    android:text="Трети етаж"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView26" android:layout_weight="1"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="300"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b300"/>
+                    <Button
+                            android:text="301"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b301"/>
+                    <Button
+                            android:text="302"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b302"/>
+                    <Button
+                            android:text="303"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b303"/>
+                    <Button
+                            android:text="304"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b304"/>
+                    <Button
+                            android:text="305"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b305"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="306"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b306"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="307"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b307"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="308"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b308"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="310"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b310"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="315"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b315"
+                            android:textAppearance="@style/txt_expandable"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                    android:text="Четвърти етаж"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView25" android:layout_weight="1"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="400"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b400"/>
+                    <Button
+                            android:text="401"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b401"/>
+                    <Button
+                            android:text="402"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b402"/>
+                    <Button
+                            android:text="403"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b403"/>
+                    <Button
+                            android:text="404"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b404"/>
+                    <Button
+                            android:text="405"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b405"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="406"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b406"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="407"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b407"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="408"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b408"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="409"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b409"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="410"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b410"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="411"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b411"
+                            android:textAppearance="@style/txt_expandable"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                    android:text="Сутерен"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView24" android:layout_weight="1"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="КЗ - 1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/bkz1"/>
+                    <Button
+                            android:text="КЗ - 2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/bkz2"/>
+                    <Button
+                            android:text="КЗ - 3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/bkz3"/>
+                    <Button
+                            android:text="Мега"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/bmega"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                    android:text="Къщичката"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView23" android:layout_weight="1.5"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="1330"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b1330"/>
+                    <Button
+                            android:text="Огледална зала"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/boz"/>
+                    <Button
+                            android:text="ЗЗ - 1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/bmk1"/>
+                    <Button
+                            android:text="ЗЗ - 2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/bmk2"/>
+                    <Button
+                            android:text="ЗЗ - 3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/bmk3"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+

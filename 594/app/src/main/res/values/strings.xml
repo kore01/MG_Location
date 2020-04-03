@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">МГ Локация</string>
+    <string name="navigation_drawer_open">Отвори</string>
+    <string name="navigation_drawer_close">Затвори</string>
+    <string name="googlenotsuccessful">Входът не беше успешен</string>
+    <string name="Web_Id_Client">1079028959267-sh1j5q9jandadmggfgqdjt66bsmspefo.apps.googleusercontent.com</string>
+    <string name="search">Търсене</string>
+    <string name="problem">Докладвайте проблем</string>
+    <string name="first_name">Име</string>
+    <string name="last_name">Фамилия</string>
+    <string name="email">Имейл</string>
+    <string name="password">Парола</string>
+    <string name="create_act">Вход/регистрация с имейл</string>
+    <string name="kymparvasmqna">Премини към първа смяна</string>
+    <string name="kymvtorasmqna">Премини към втора смяна</string>
+    <string name="betterfunc">Препоръчва се вход със служебния имейл в Google за достъп до повече функции. При неуспешен
+        вход с Google влезте с имейл.
+    </string>
+    <string name="title_activity_new__extra">New_ExtraAct</string>
+    <string name="title_activity_room_problem">RoomProblem</string>
+    <string name="title_activity_splash_">Splash_Activity</string>
+    <string name="title_activity_class_work">ClassWork</string>
+    <string name="title_activity_time_table_work">TimeTableWork</string>
+</resources>

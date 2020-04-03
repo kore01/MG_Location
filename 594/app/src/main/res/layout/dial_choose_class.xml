@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="350dp"
+              android:layout_height="475dp"
+              android:background="@drawable/border"
+              android:padding="5dp"
+              android:layout_gravity="center">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="3">
+        <TextView
+                android:text="Изберете клас"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/textView8" android:textAppearance="@style/title"
+                android:gravity="center" android:layout_weight="1"/>
+        <TextView
+                android:id="@+id/txtclose"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="X"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:layout_weight="3" android:textAppearance="@style/title"/>
+    </LinearLayout>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="0.6" android:paddingLeft="15dp"
+            android:paddingRight="15dp" style="@android:style/Widget.ScrollView">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="5 клас"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView22" android:layout_weight="1"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="5а"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b5а"/>
+                    <Button
+                            android:text="5б"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b5b"/>
+                    <Button
+                            android:text="5в"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b5v"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                    android:text="6 клас"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView27" android:layout_weight="1"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="6a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b6a"/>
+                    <Button
+                            android:text="6б"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b6b"/>
+                    <Button
+                            android:text="6в"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b6v"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                    android:text="7 клас"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView26" android:layout_weight="1"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="7a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b7a"/>
+                    <Button
+                            android:text="7б"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b7b"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                    android:text="8 клас"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView25" android:layout_weight="1"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="8а"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b8a"/>
+                    <Button
+                            android:text="8б"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b8b"/>
+                    <Button
+                            android:text="8в"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b8v"/>
+                    <Button
+                            android:text="8г"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b8g"/>
+                    <Button
+                            android:text="8д"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b8d"/>
+                    <Button
+                            android:text="8е"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b8e"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="8ж"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b8j"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                    android:text="9 клас"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView24" android:layout_weight="1"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="9а"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b9a"/>
+                    <Button
+                            android:text="9б"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b9b"/>
+                    <Button
+                            android:text="9в"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b9v"/>
+                    <Button
+                            android:text="9г"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b9g"/>
+                    <Button
+                            android:text="9д"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b9d"/>
+                    <Button
+                            android:text="9е"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b9e"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="9ж"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b9j"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                    android:text="10 клас"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView23" android:layout_weight="1.5"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="10а"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b10a"/>
+                    <Button
+                            android:text="10б"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b10b"/>
+                    <Button
+                            android:text="10в"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b10v"/>
+                    <Button
+                            android:text="10г"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b10g"/>
+                    <Button
+                            android:text="10д"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b10d"/>
+                    <Button
+                            android:text="10е"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b10e"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="10ж"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b10j"/>
+                    <Button
+                            android:text="10з"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b10z"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                    android:text="11 клас"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView6" android:layout_weight="1"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="11а"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b11a"/>
+                    <Button
+                            android:text="11б"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b11b"/>
+                    <Button
+                            android:text="11в"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b11v"/>
+                    <Button
+                            android:text="11г"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b11g"/>
+                    <Button
+                            android:text="11д"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b11d"/>
+                    <Button
+                            android:text="11е"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b11e"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="11ж"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b11j"/>
+                    <Button
+                            android:text="11з"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b11z"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                    android:text="12 клас"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView7" android:layout_weight="1"
+                    android:textAppearance="@style/title_expandable" android:gravity="left"/>
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        android:paddingLeft="15dp" android:paddingRight="15dp"
+                        android:layout_marginRight="15dp">
+                    <Button
+                            android:text="12а"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b12a"/>
+                    <Button
+                            android:text="12б"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b12b"/>
+                    <Button
+                            android:text="12в"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b12v"/>
+                    <Button
+                            android:text="12г"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b12g"/>
+                    <Button
+                            android:text="12д"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable" android:id="@+id/b12d"/>
+                    <Button
+                            android:text="12е"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/b12e"
+                            android:textAppearance="@style/txt_expandable"/>
+                    <Button
+                            android:text="12ж"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b12j"/>
+                    <Button
+                            android:text="12з"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_weight="1"
+                            android:textAppearance="@style/txt_expandable"
+                            android:id="@+id/b12z"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+

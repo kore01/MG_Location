@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="350dp"
+              android:layout_height="475dp"
+              android:background="@drawable/border"
+              android:padding="5dp"
+              android:layout_gravity="center" >
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="2.5">
+        <TextView
+                android:text="Изберете учител"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/textView8" android:textAppearance="@style/title"
+                android:gravity="center" android:layout_weight="1"/>
+        <TextView
+                android:id="@+id/txtclose"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="X"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:layout_weight="4" android:textAppearance="@style/title"/>
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="2.8" android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <Button
+                        android:text="БЕЛ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bel1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="Математика"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/mat1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="Английски език"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/ae1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="Немски език"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/ne1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="Руски език"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/re1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="Френски език"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/fe1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="Информатика/ИТ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/it1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="История"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/ist1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="Философия"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/fil1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="Биология"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bio1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="География"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/geo1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="Химия"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/him1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="Физика"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/fiz1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="ФВС"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/fvs1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="Музика"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/mus1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="Изобр. изкуство"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/ii1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="ТиП"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/tip1" android:layout_weight="1"
+                        style="@style/Widget.AppCompat.Button.Colored" android:visibility="gone"/>
+                <Button
+                        android:text="БЕЛ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bel"/>
+                <Button
+                        android:text="Математика"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/mat" android:layout_weight="1"/>
+                <Button
+                        android:text="Английски език"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/ae" android:layout_weight="1"/>
+                <Button
+                        android:text="Немски език"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/ne"/>
+                <Button
+                        android:text="Руски език"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/re" android:layout_weight="1"/>
+                <Button
+                        android:text="Френски език"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/fe" android:layout_weight="1"/>
+                <Button
+                        android:text="Информатика/ИТ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/it" android:layout_weight="1"/>
+                <Button
+                        android:text="История"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/ist" android:layout_weight="1"/>
+                <Button
+                        android:text="Философия"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/fil" android:layout_weight="1"/>
+                <Button
+                        android:text="Биология"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/bio" android:layout_weight="1"/>
+                <Button
+                        android:text="География"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/geo" android:layout_weight="1"/>
+                <Button
+                        android:text="Химия"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/him" android:layout_weight="1"/>
+                <Button
+                        android:text="Физика"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/fiz" android:layout_weight="1"/>
+                <Button
+                        android:text="ФВС"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/fvs" android:layout_weight="1"/>
+                <Button
+                        android:text="Музика"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/mus" android:layout_weight="1"/>
+                <Button
+                        android:text="Изобр. изкуство"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/ii" android:layout_weight="1"/>
+                <Button
+                        android:text="ТиП"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/tip" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1" android:id="@+id/list"
+            android:paddingLeft="20dp" android:paddingRight="20dp"/>
+
+</LinearLayout>
+
+

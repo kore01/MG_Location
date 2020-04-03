@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="350dp"
+              android:layout_height="475dp"
+              android:background="@drawable/border"
+              android:padding="5dp"
+              android:layout_gravity="center" >
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1" android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp" android:layout_marginBottom="10dp">
+        <TextView
+                android:text="Информация"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/infotitle"
+                android:textAppearance="@style/title"
+                android:gravity="center" android:layout_weight="1"/>
+        <TextView
+                android:id="@+id/txtclose"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="X"
+                android:layout_gravity="end"
+                android:gravity="right|top"
+                android:layout_weight="6" android:textAppearance="@style/title"/>
+    </LinearLayout>
+    <TextView
+            android:text="Цели:"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/textView15" android:layout_weight="1.05"
+            android:textAppearance="@style/title_expandable" android:gravity="center" android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/>
+    <TextView
+            android:text="Подпомагане на учебния процес"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/textView16" android:layout_weight="1.05"
+            style="@android:style/Widget.DeviceDefault.Light.TextView" android:textAppearance="@style/txt_expandable"
+            android:gravity="center|left" android:layout_marginLeft="25dp" android:layout_marginRight="25dp"/>
+    <TextView
+            android:text="Предоставяне на актуална програма на даден клас/преподавател/стая"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/textView20" android:layout_weight="1"
+            android:textAppearance="@style/txt_expandable"
+            android:gravity="center|left" android:layout_marginLeft="25dp" android:layout_marginRight="25dp"/>
+    <TextView
+            android:text="Информация за извънкласни дейности и събития"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/textView28" android:layout_weight="1"
+            style="@android:style/Widget.DeviceDefault.Light.TextView" android:textAppearance="@style/txt_expandable"
+            android:gravity="center|left" android:layout_marginLeft="25dp" android:layout_marginRight="25dp"/>
+    <TextView
+            android:text="Създател:"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/textView29" android:layout_weight="1.05"
+            android:textAppearance="@style/title_expandable" android:gravity="center" android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/>
+    <TextView
+            android:text="Приложението е създадено от Камелия Каменова Иванова, 11е клас"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/textView30" android:layout_weight="1"
+            android:layout_marginLeft="25dp" android:layout_marginRight="25dp"
+            android:textAppearance="@style/smolgrey"/>
+    <TextView
+            android:text="Ръководители: Елеонора Павлова и Юлия Димитрова"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/textView31" android:layout_weight="1"
+            android:layout_marginLeft="25dp" android:layout_marginRight="25dp"
+            android:textAppearance="@style/smolgrey"/>
+    <TextView
+            android:text="Този проект участва на НОИТ - 2019г."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/textView32" android:layout_weight="1"
+            android:layout_marginLeft="25dp" android:layout_marginRight="25dp"
+            android:textAppearance="@style/smolgrey"/>
+    <TextView
+            android:text="Условия за ползване:"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/textView52" android:layout_weight="1"
+            android:textAppearance="@style/title_expandable" android:gravity="center" android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/>
+    <TextView
+            android:text="https://schoollocationmg.wixsite.com/website"
+            android:layout_width="match_parent"
+            android:autoLink="web"
+            android:layout_height="match_parent" android:id="@+id/textView18" android:layout_weight="1"
+            android:gravity="center|top"/>
+
+</LinearLayout>
+
+

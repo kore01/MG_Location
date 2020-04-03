@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_begining"
+                android:theme="@style/txt_expandable"
+                android:icon="@drawable/ic_home"
+                android:title="Начало"
+        />
+        <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_account"
+                android:theme="@style/txt_expandable"
+                android:title="Профил"/>
+
+    </group>
+
+    <item android:title="Програма">
+        <menu>
+            <item
+                    android:id="@+id/nav_myschedule"
+                    android:icon="@drawable/ic_myschedule"
+                    android:theme="@style/txt_expandable"
+                    android:title="Моята програма"/>
+            <item
+                    android:id="@+id/nav_fullschedule"
+                    android:icon="@drawable/ic_fullschedule"
+                    android:theme="@style/txt_expandable"
+                    android:title="Пълна програма"/>
+            <item
+                    android:id="@+id/nav_classwork"
+                    android:icon="@drawable/ic_classwork"
+                    android:theme="@style/txt_expandable"
+                    android:title="Предстоящи контролни"/>
+
+            <item
+                    android:id="@+id/nav_extra"
+                    android:icon="@drawable/ic_extra"
+                    android:theme="@style/txt_expandable"
+                    android:title="Извънкласни дейности"/>
+            <item
+                    android:id="@+id/nav_timetable"
+                    android:icon="@drawable/ic_time"
+                    android:theme="@style/txt_expandable"
+                    android:title="Работно време"/>
+        </menu>
+    </item>
+    <item android:title="Администраторски права"
+          android:id="@+id/admin">
+        <menu>
+            <item
+                    android:id="@+id/problems"
+                    android:icon="@drawable/ic_report_problem"
+                    android:theme="@style/txt_expandable"
+                    android:title="Проблеми"/>
+            <item
+                    android:id="@+id/roomproblems"
+                    android:icon="@drawable/ic_report_problem"
+                    android:theme="@style/txt_expandable"
+                    android:title="Проблеми по стаи"/>
+            <item
+                    android:id="@+id/suggevents"
+                    android:icon="@drawable/ic_note"
+                    android:theme="@style/txt_expandable"
+                    android:title="Нови събития"/>
+            <item
+                    android:id="@+id/suggextra"
+                    android:icon="@drawable/ic_note"
+                    android:theme="@style/txt_expandable"
+                    android:title="Нови извънкласни"/>
+        </menu>
+    </item>
+    <item android:title="Информация">
+        <menu>
+            <item
+                    android:id="@+id/nav_problem"
+                    android:icon="@drawable/ic_report_problem"
+                    android:title="Докладвайте проблем"
+                    android:theme="@style/txt_expandable"
+            />
+            <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/ic_info"
+                    android:theme="@style/txt_expandable"
+                    android:title="За МГ Локация"/>
+        </menu>
+    </item>
+
+</menu>
+
+

@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="AppTheme">
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="AppTheme">
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="viewCustom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="txt_expandable" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">@font/adys_reg</item>
+    </style>
+    <style name="txtbig" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/adys_reg</item>
+    </style>
+    <style name="title_expandable" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/adys_reg</item>
+    </style>
+
+    <style name="MySpinnerLook"
+           parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/adys_reg</item>
+
+    </style>
+
+    <style name="title_exp" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:fontFamily">@font/adys_reg</item>
+    </style>
+
+
+    <style name="biggreen" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">@font/adys_reg</item>
+    </style>
+
+    <style name="title" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:fontFamily">@font/adys_reg</item>
+    </style>
+
+    <style name="smolgrey" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">@font/adys_reg</item>
+    </style>
+
+    <style name="biggrey" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:fontFamily">@font/adys_reg</item>
+    </style>
+
+    <style name="titlesmol" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">@font/adys_bold</item>
+    </style>
+
+    <style name="titlenav" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#FFF5FF</item>
+        <item name="android:textSize">35dp</item>
+        <item name="android:fontFamily">@font/adys_bold</item>
+    </style>
+    <style name="txtnav" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#FFF5FF</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:fontFamily">@font/adys_reg</item>
+    </style>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+</resources>

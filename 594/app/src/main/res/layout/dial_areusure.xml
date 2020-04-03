@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="350dp"
+              android:layout_height="175dp"
+              android:background="@drawable/border"
+              android:padding="5dp"
+              android:layout_gravity="center">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1" android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp">
+        <TextView
+                android:text="Одобрявате ли събитието?"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/infotitle"
+                android:textAppearance="@style/title"
+                android:gravity="center" android:layout_weight="1"/>
+        <TextView
+                android:id="@+id/txtclose"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="X"
+                android:layout_gravity="end"
+                android:gravity="right|top"
+                android:layout_weight="6" android:textAppearance="@style/title"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1">
+        <Button
+                android:text="Да"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/da" android:layout_weight="1"
+                android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+        <Button
+                android:text="Не"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/ne" android:layout_weight="1"
+                android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+

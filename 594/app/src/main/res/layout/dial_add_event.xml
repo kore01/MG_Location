@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:padding="5dp"
+                android:layout_gravity="center"
+>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="15dp" android:layout_marginEnd="15dp"
+            android:layout_margin="15dp">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:gravity="top" android:layout_weight="1">
+            <TextView
+                    android:text="Добавете събитие"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/textView8"
+                    android:textAppearance="@style/title"
+                    android:gravity="center" android:layout_weight="1"/>
+            <TextView
+                    android:id="@+id/txtclose"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="X"
+                    android:layout_gravity="end"
+                    android:gravity="center"
+                    android:layout_weight="3" android:textAppearance="@style/title"/>
+        </LinearLayout>
+        <TextView
+                android:text="Име*"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/textView10" android:layout_weight="1.08"
+                android:gravity="bottom" android:textAppearance="@style/biggreen"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/name"
+                android:textAppearance="@style/titlesmol" android:layout_weight="1.05" android:hint="Име"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="1.08">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:clickable="true"
+                    android:hint="Дата" android:gravity="bottom|center" android:text="Дата*"
+                    android:textAppearance="@style/biggreen" android:layout_weight="1"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:hint="Час" android:gravity="bottom|center" android:text="Час*"
+                    android:textAppearance="@style/biggreen" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="1.05">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:clickable="true"
+                    android:id="@+id/date" android:hint="Дата" android:gravity="center"
+                    android:textAppearance="@style/txt_expandable" android:layout_weight="1"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:id="@+id/time" android:hint="Час" android:gravity="center"
+                    android:textAppearance="@style/txt_expandable" android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView
+                android:text="Място*"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/textView11" android:layout_weight="1.08"
+                android:textAppearance="@style/biggreen" android:gravity="bottom"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/place"
+                android:textAppearance="@style/txt_expandable" android:layout_weight="1.05" android:hint="Място"/>
+        <TextView
+                android:text="Описание* (1-2 изречения)"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/textView12" android:layout_weight="1.08"
+                android:gravity="bottom" android:textAppearance="@style/biggreen"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/desc"
+                android:textAppearance="@style/txt_expandable" android:layout_weight="1.05" android:hint="Описание"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/submit"
+                android:text="Добавете събитие"
+                android:textAppearance="@style/title_expandable" android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button" android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+</RelativeLayout>

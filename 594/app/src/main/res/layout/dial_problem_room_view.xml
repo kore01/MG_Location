@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="350dp"
+              android:layout_height="475dp"
+              android:padding="5dp"
+              android:layout_gravity="center" >
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="2">
+        <TextView
+                android:text="Докладвайте"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/textView8" android:textAppearance="@style/title"
+                android:gravity="center" android:layout_weight="1"/>
+        <TextView
+                android:id="@+id/txtclose"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="X"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:layout_weight="3" android:textAppearance="@style/title"/>
+    </LinearLayout>
+    <CheckBox
+            android:text="Проблем с техниката"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/techn" android:layout_weight="2"
+            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+            android:textAppearance="@style/biggrey"/>
+    <CheckBox
+            android:text="Счупена мебел"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/mebel" android:layout_weight="2"
+            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+            android:textAppearance="@style/biggrey"/>
+    <CheckBox
+            android:text="Друго"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/and" android:layout_weight="2"
+            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+            android:textAppearance="@style/biggrey"/>
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1" app:hintTextAppearance="@style/smolgrey">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Моля, опишете проблема си" android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" android:id="@+id/Text" style="@style/titlesmol"
+                android:textAppearance="@style/txt_expandable"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+            android:id="@+id/btnproblem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/problem"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="@style/title_expandable" android:textColor="@android:color/white"
+            android:layout_marginBottom="25dp"/>
+
+</LinearLayout>
+
+
